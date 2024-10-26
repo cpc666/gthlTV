@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		
+	</head>
+	<body>
+
+		<div class="header">
+			<div class="container">
+				
+				<div class="site-logo">
+					<a>
+						<img src="img/index/logo1.png" />
+					</a>
+				</div>
+				
+				<div class="site-list">
+					<ul class="clearfix">
+						<li>
+							<a href="index1.html"><font color="f6dca1"><b>首页</b></font></a>
+						</li>
+						<li>
+							<a href="dianying.html">电影</a>
+						</li>
+						<li>
+							<a href="dianshi.html">电视剧</a>
+						</li>
+						<li>
+							<a onclick="say()">纪录片</a>
+						</li>
+						<li>
+							<a onclick="say()">其他</a>
+						</li>
+					</ul>
+				</div>
+				<div class="login">
+						<img src="img/index/用户.png"/>
+					</a>
+				</div>
+				<div class="site-search">
+					<form action="">
+						<input class="search-text"   type="text" placeholder="请输入关键字"/>
+						<input class="submit" type="submit" value="搜索"/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="site-content">
+			<div class="container">
+				<div class="box">
+				    <ul id="imglist">
+				        <li class="namess"><img src="img/index/banner.png" alt=""></li>
+				    </ul>
+				</div>
+				<script src="js/lunb.js"></script>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div id="tab">
+					<div id="tabNav">
+						<p><strong>今日推荐</strong></p>
+						<ul>
+							<li class="active">最新</li>
+							<li>国内革命</li>
+							<li>对外抗战</li>
+						</ul>
+					</div>
+					<div id="main">
+						<div class="item show">
+
+							<div class="main-zuixin">
+								
+								<div class="zuixin-left">
+									<img src="img/index/大决战之淮海战役.jpg" />
+									<a href="dajuezhan.html">大决战之淮海战役</a>
+								</div>
+								<div class="zuixin-right">
+									<div class="zuixin-right1">
+										<div>
+											<img src="img/index/传家.jpg" />
+											<a onclick="say()"> 传家</a>
+										</div>
+										<div>
+											<img src="img/index/建国大业.jpg" />
+											<a onclick="say()"> 建国大业</a>
+										</div>
+									</div>
+									<div class="zuixin-right2">
+										<div>
+											<img src="img/index/志愿军：存亡之战.jpg" />
+											<a onclick="say()"> 志愿军：存亡之战</a>
+										</div>
+										<div>
+											<img src="img/index/伪装者.jpg" />
+											<a onclick="say()"> 伪装者</a>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="item">
+							
+							<div class="zuixin-left">
+								<img src="img/index/建党伟业.jpg" />
+								<a onclick="say()">建党伟业</a>
+							</div>
+							<div class="zuixin-right">
+								<div class="zuixin-right1">
+									<div>
+										<img src="img/index/建国大业.jpg" />
+										<a onclick="say()"> 建国大业</a>
+									</div>
+									<div>
+										<img src="img/index/建军大业.jpg" />
+										<a onclick="say()"> 建军大业</a>
+									</div>
+								</div>
+								<div class="zuixin-right2">
+									<div>
+										<img src="img/index/大决战之辽沈战役.jpg" />
+										<a onclick="say()"> 大决战之辽沈战役</a>
+									</div>
+									<div>
+										<img src="img/index/大决战之淮海战役.jpg" />
+										<a href="dajuezhan.html"> 大决战之淮海战役</a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="item">
+							
+							<div class="zuixin-left">
+								<img src="img/index/高山的花环.jpg" />
+								<aonclick="say()"> 高山的下花环</a>
+							</div>
+							<div class="zuixin-right">
+								<div class="zuixin-right1">
+									<div>
+										<img src="img/index/志愿军：存亡之战.jpg" />
+										<a onclick="say()"> 志愿军：存亡之战</a>
+									</div>
+									<div>
+										<img src="img/index/八佰.jpg" />
+										<a onclick="say()"> 八佰</a>
+									</div>
+								</div>
+								<div class="zuixin-right2">
+									<div>
+										<img src="img/index/长津湖1.jpg" />
+										<a onclick="say()"> 长津湖</a>
+									</div>
+									<div>
+										<img src="img/index/志愿军：雄兵出击1.jpg" />
+										<a onclick="say()"> 志愿军:雄兵出击</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script src="js/tab.js"></script>		
+												
+				<div class="tableft">
+					<div class="tableft-list">
+						<h3>电视剧热播榜</h3>
+					</div>
+					<hr size="1" color="#A2A2A2"/>
+					<div class="tableft-list">
+						<p><font face="微软雅黑" size="4"><i>1 </i></font></p>
+						<a onclick="say()">传家</a>
+					</div>
+					<div class="tableft-list">
+						<p><font face="微软雅黑" size="4"><i>2 </i></font></p>
+						<a onclick="say()">伪装者</a>
+					</div>
+					<div class="tableft-list">
+						<p><font face="微软雅黑" size="4"><i>3 </i></font></p>
+						<a onclick="say()">川流</a>
+					</div>
+					<div class="tableft-list">
+						<p><font face="微软雅黑" size="4"><i>4 </i></font></p>
+						<a onclick="say()">侦察英雄</a>
+					</div>
+					<div class="tableft-list">
+						<p><font face="微软雅黑" size="4"><i>5 </i></font></p>
+						<a onclick="say()">走向大西南</a>
+					</div>				
+				</div>
+			
+
+				<div class="tabdown">
+					<a href="dianying.html"><h1>电影</h1></a>
+					<ul>
+						<li>
+							<img src="img/index/长津湖.jpg" alt="">
+							<div><a onclick="say()">长津湖</a></div>
+							
+						</li>
+						<li>
+							<img src="img/index/志愿军：雄兵出击.jpg" alt="">
+							<div><a onclick="say()">志愿军:雄兵出击</a></div>
+						</li>
+						<li>
+							<img src="img/index/冲锋.jpg" alt="">
+							<div><a onclick="say()">冲锋</a></div>
+						</li>
+						<li>
+							<img src="img/index/志愿军：存亡之战1.png" alt="">
+							<div><a onclick="say()">志愿军：存亡之战</a></div>
+						</li>
+						<li>
+							<img src="img/index/长津湖之水门桥.jpg" alt="">
+							<div><a onclick="say()">长津湖之水门桥</a></div>
+						</li>
+						<li>
+							<img src="img/index/狙击手.jpg" alt="">
+							<div><a onclick="say()">狙击手</a></div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="tabdown">
+					<a href="dianshi.html"><h1>电视剧</h1></a>
+					<ul>
+						<li>
+							<img src="img/index/走向大西南.jpg" alt="">
+							<div><a onclick="say()">走向大西南</a></div>
+							
+						</li>
+						<li>
+							<img src="img/index/川流.jpg" alt="">
+							<div><a onclick="say()">川流</a></div>
+						</li>
+						<li>
+							<img src="img/index/侦察英雄.jpg" alt="">
+							<div><a onclick="say()">侦察英雄</a></div>
+						</li>
+						<li>
+							<img src="img/index/冰雪尖刀连.jpg" alt="">
+							<div><a onclick="say()">冰雪尖刀连</a></div>
+						</li>
+						<li>
+							<img src="img/index/鲲鹏击浪.jpg" alt="">
+							<div><a onclick="say()">鲲鹏击浪</a></div>
+						</li>
+						<li>
+							<img src="img/index/烽火硝烟里的青春.jpg" alt="">
+							<div><a onclick="say()">烽火硝烟里的青春</a></div>
+						</li>
+					</ul>
+				</div>
+			
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="footer-liebiao">
+					<div class="guanyu">
+						<table>
+							<tr class="neir">
+								<td colspan="5"><h4>关于我们</h4></td>
+							</tr>
+							<tr>
+								<td><a onclick="say()">关于我们</a></td>
+								<td><a onclick="say()">联系我们</a></td>
+								<td><a onclick="say()">在线反馈</a></td>
+								<td><a onclick="say()">侵权投诉</a></td>
+								<td><a onclick="say()">繁体字</a></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="xieyi">
+						<table>
+							<tr class="neir">
+								<td><h4>协议声明</h4></td>
+							</tr>
+							<tr>
+								<td><a onclick="say()">用户协议</a></td>
+								<td><a onclick="say()">隐私政策</a></td>
+								<td><a onclick="say()">历史协议版本</a></td>
+								<td><a onclick="say()">知识产权声明</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="footer-infro">
+					钢铁洪流影视信息科技有限公司版权所有
+					<br>钢铁洪流影视信息科技有限公司 
+				</div>
+			</div>
+		</div>
+		<script>
+			let i = 1;
+			function say(){
+				i++;
+				if(i===2){
+					alert('尚未开发')
+				}
+				if(i===3){
+					alert('你点你木啊，都说了没开发，尔不吉尔招笑唉')
+				}
+				if(i>4||i===4){
+				window.open("dumogu.html");
+				}
+			}
+			const sliderData =[
+				{url:'img/index/banner.png'},
+				{url:'img/index/banner2.png'},
+				{url:'img/index/banner3.png'}
+			]
+			let a = 0;
+			let img = document.querySelector('.namess img')
+    setInterval(function(){
+        a++
+        img.src = sliderData[a].url
+        if(a=== 2){
+            a= -1}
+        },2000)
+		</script>
+	</body>
+</html>
